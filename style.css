@@ -3,28 +3,59 @@ body {
   font-family: Arial;
   background: linear-gradient(135deg, #000, #111);
   color: white;
-  text-align: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00ff88;
+}
+
+button {
+  padding: 12px 25px;
+  background: #00ff88;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
 }
 
 .hero {
-  padding: 120px 20px;
+  text-align: center;
+  padding: 100px 20px;
 }
 
 h1 {
   font-size: 50px;
   color: #00ff88;
-  margin: 0;
 }
 
 p {
   color: #aaa;
-  font-size: 18px;
 }
 
-button {
-  margin-top: 30px;
-  padding: 12px 25px;
-  background: #00ff88;
-  border: none;
-  cursor: pointer;
+.nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: #111;
+  border-bottom: 1px solid #222;
+}
+
+.box {
+  border: 1px solid #333;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.box:hover {
+  border-color: #00ff88;
 }
