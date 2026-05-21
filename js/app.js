@@ -1,1 +1,7 @@
-console.log("GitMVP JS loaded");
+document.addEventListener("DOMContentLoaded", function () {
+  const button = document.querySelector("button");
+
+  button.addEventListener("click", function () {
+    alert("GitMVP is running 🚀");
+  });
+});
